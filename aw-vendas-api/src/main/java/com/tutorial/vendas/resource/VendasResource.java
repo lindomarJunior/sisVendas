@@ -29,7 +29,7 @@ public class VendasResource {
 	
 	@GetMapping
 	public List<Venda> listar(){
-		return vendas.findAll();
+		return vendas.findAll(); 
 	}
 	
 	@PostMapping
